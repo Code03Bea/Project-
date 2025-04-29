@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding for Beginners: Create Your First Website</title>
+</head>
+<body>
+    <header>
+        <h1>Coding for Beginners: Create Your First Website</h1>
+        <img src="Logo.png" alt="Coding Logo" class="logo">
+        <p>Learn to code and build your own website from scratch!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#tips">Tips & Tricks</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Coding for Beginners</h2>
+            <p>Start your journey into web development with our easy-to-follow tutorials!</p>
+        </section>
+        <section id="tutorials">
+            <h2>HTML & CSS Tutorials</h2>
+            <article>
+                <h3>Getting Started with HTML</h3>
+                <p>Learn the basics of HTML, the structure of web pages.</p>
+                <button onclick="toggleDetails('htmlDetails')">Show Details</button>
+                <div id="htmlDetails" class="details" style="display:none;">
+                    <p>
+                        Welcome to the HTML tutorial! In this course, you will learn everything you need to know to get started writing HTML (HyperText Markup Language), the standard language for creating web pages:<p>
+                            <br>
+                   
+                    <ul>
+                        <li>HTML Elements</li>
+                        <li>Tags and Attributes</li>
+                        <li>Creating a Simple Web Page</li>
+                    </ul>
+                    <br>
+                    <p>What is HTML?
+                        HTML is a markup language used to define the structure and layout of web pages. Almost every page on the internet is written in HTML. By learning HTML tags and how to use them, you can build your own website from scratch.</p>
+                    <p>Choosing a Text Editor
+                        When writing HTML, you need a text editor to create HTML files. Here are some options:</p>
+                        
+                    <ul>Simple Text Editors
+                        <li>Windows: Notepad</li>
+                        <li>Mac: TextEdit</li>
+                    </ul>
+                    <p>These basic text editors are sufficient for beginners and help you focus on writing HTML without distractions.</p>
+
+                    <p>Advanced Text Editors
+                        If you prefer more features, consider using specialized text editors like:</p>
+                    <ul>
+                        <li>Visual Studio Code (VS Code): A powerful, open-source code editor with features like syntax highlighting, extensions, and integrated terminal.</li>
+                        <li>Sublime Text: A sophisticated text editor for code, markup, and prose.</li>
+                    </ul>
+                    <p>These editors offer syntax highlighting and additional features but may be more complex for beginners.</p>
+
+                    <p>Creating Your First HTML File</p>
+                    <p>Step 1: Create a Project Folder<br>
+                    Create a folder for your project. For example, name it 'My_site'.</p>
+                    <br>
+                    <p>Step 2: Create an HTML File</p>
+                    <p>Inside your project folder, create a new file named 'index.html'.
+                    <br>This is the standard name for the homepage of a website.</p>
+
+                    <p>Step 3: Write Basic HTML Code</p>
+                    <p>Open 'index.html' in your text editor and add the following code:</p>
+                    <img src="1HTML.jpg" alt="HTML PHOTO" class="photo">
+
+                    <p>Explanation of the Code</p>
+                        <p>DOCTYPE: Declares the document type and version of HTML.
+                        <br>
+                        html: The root element of the HTML document.
+                        <br>
+                        head: Contains meta-information about the document (like the title and character set).
+                        <br>
+                        title: Sets the title of the webpage, displayed in the browser tab.
+                        <br>
+                        meta: Provides metadata about the HTML document (character set and description).
+                        <br>
+                        body: Contains the content of the webpage, including headings and paragraphs.</p>
+                </div>
+            </article>
+            <article>
+                <h3>Styling with CSS</h3>
+                <p>Discover how to style your web pages using CSS.</p>
+                <button onclick="toggleDetails('cssDetails')">Show Details</button>
+                <div id="cssDetails" class="details" style="display:none;">
+                    <p>CSS (Cascading Style Sheets) is used to style HTML elements. In this tutorial, you will learn about:</p>
+                    <ul>
+                        <li>CSS Selectors and Properties</li>
+                        <li>Applying Styles to HTML Elements</li>
+                        <li>Creating Layouts with CSS</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section id="projects">
+            <h2>Simple Coding Projects</h2>
+            <div class="project">
+                <h3>Create Your First Web Page</h3>
+                <p>Follow this project to build a simple web page using HTML and CSS.</p>
+                <button onclick="toggleDetails('projectDetails')">Show Project Steps</button>
+                <div id="projectDetails" class="details" style="display:none;">
+                    <ol>
+                        <li>Open a text editor and create a new file named `index.html`.</li>
+                        <li>Write the basic HTML structure.</li>
+                        <li>Add headings, paragraphs, and images to your page.</li>
+                        <li>Create a separate CSS file named `style.css` and link it to your HTML.</li>
+                        <li>Style your page with colors, fonts, and layout.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section id="tips">
+            <h2>Coding Tips & Tricks</h2>
+            <ul>
+                <li>Practice coding regularly to improve your skills.</li>
+                <li>Use online resources and communities for help and inspiration.</li>
+                <li>Break down projects into smaller tasks to make them manageable.</li>
+            </ul>
+        </section>
+    </main>
+    <aside>
+        <h3>Fun Facts about Coding</h3>
+        <p>Did you know that the first website was created in 1991 by Tim Berners-Lee?</p>
+    </aside>
+    <footer>
+        <p>Team Code Creators</p>
+        <p>© 2023 Team Code Creators. All rights reserved.</p>
+ <p>Happy coding!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
